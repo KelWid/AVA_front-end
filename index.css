@@ -19,14 +19,14 @@ header{
 }
 
 .content{
-    margin: 30px 50px; 
+    margin: 20px 50px; 
     /* border: 2px rgb(66, 65, 65) solid; */
 }
 
 .buttons li{
     display: inline-block;
-    /* width: 15%; */
-    margin: 10px 10px;
+    text-align: center;
+    margin: 5px 10px;
 }
 
 .buttons li a{
@@ -35,21 +35,40 @@ header{
     color: rgb(66, 65, 65);
 }
 
-button{
+.startbtn{
+    display: block;
+    width: 130px;
+    height: 30px;
+    background: white;
     padding: 10px;
-    font-size: 15px;
-    border: 1px solid rgb(66, 65, 65);
-    border-radius: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    box-shadow: 5px 7px 15px rgb(114, 114, 114);
 }
 
-.start:hover{
-    background: rgb(7, 197, 7);
+.stopbtn{
+    display: block;
+    width: 130px;
+    height: 30px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    box-shadow: 5px 7px 15px rgb(114, 114, 114);
 }
-/*  */
-.buttons li a:hover{
+
+.startbtn:hover{
+    background: rgb(7, 197, 7);
     color: white;
 }
 
-.stop:hover{
+.stopbtn:hover{
     background: red;
+    color: white;
 }
