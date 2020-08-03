@@ -1,0 +1,55 @@
+
+
+
+body{
+    background: rgba(177, 166, 166, 0.719);
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(66, 65, 65);
+    margin: 0;
+}
+header{
+    background: rgb(66, 65, 65);
+    color:white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.content{
+    margin: 30px 50px; 
+    /* border: 2px rgb(66, 65, 65) solid; */
+}
+
+.buttons li{
+    display: inline-block;
+    /* width: 15%; */
+    margin: 10px 10px;
+}
+
+.buttons li a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(66, 65, 65);
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(66, 65, 65);
+    border-radius: 20px;
+}
+
+.start:hover{
+    background: rgb(7, 197, 7);
+}
+
+.buttons li a:hover{
+    color: white;
+}
+
+.stop:hover{
+    background: red;
+}
